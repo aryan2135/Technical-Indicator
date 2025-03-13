@@ -1,5 +1,5 @@
 # Technical-Indicator
-# Indicator Name
+  Indicator Name
 
 ## Description
 
@@ -11,3 +11,14 @@ Provide steps on how to install this indicator. If it's a library or package, in
 
 ```bash
 pip install your-indicator
+
+# Usage
+
+
+from your_indicator import Indicator
+
+# create an instance of the indicator
+indicator = Indicator()
+
+# use the indicator
+result = indicator.calculate(data)
